@@ -1,0 +1,64 @@
+Git Nedir?
+Git, 2005 yılında başlatılan ve piyasadaki en popüler VCS’lerden biri haline gelen açık kaynaklı bir projedir.
+Geliştiricilerin %87’sinden fazlası projeleri için Git’i kullanır.
+Dağıtılmış bir sürüm kontrol sistemidir. 
+Yani, erişim izni verilen ekipteki herhangi bir geliştirici,
+Git komut satırı araçlarını (Git command line tools) kullanarak kaynak kodunu ve değişiklik geçmişini yönetebilir.
+Git,  merkezi sürüm kontrol sistemlerinden farklı olarak özellik dalları (feature branches) sunar.
+Bu, ekipteki her yazılım mühendisinin kodda değişiklik yapmak için yalıtılmış bir yerel depo sağlayan bir özellik dalını ayırabileceği anlamına gelir.
+Özellik dalları, orijinal proje kodunun bulunduğu ana dalı etkilemez. 
+Değişiklikler yapıldıktan ve güncellenen kod hazır olduğunda, özellik dalı ana dal ile birleştirilebilir, bu şekilde projede yapılan değişiklikler etkin hale gelir.
+Hub nedir?
+Eğer Git, GitHub’ın kalbiyse, Hub da onun ruhudur. GitHub’daki hub ise komut satırını, Git gibi, geliştiriciler için en büyük sosyal ağa çevirendir.
+Belirli bir projeye katkı sağlamanın dışında GitHub kullanıcılarına kendileri gibi hemfikir insanlarla sosyalleşme olanağı sağlar.
+İnsanları takip edebilir ve ne yaptıklarını veya kimle bağlantı kurduklarını izleyebilirsiniz.
+GitHub Nedir ve Neden Bu Kadar Popüler?
+GitHub, çoğunluğu açık kaynaklı projeler olan 100 milyondan fazla fazla depoya ev sahipliği yapıyor.
+Bu istatistik,GitHub’ın en popüler Git GUI istemcileri arasında olduğunu ve çeşitli profesyoneller ve Hostinger gibi büyük işletmeler tarafından kullanıldığını gösteriyor.
+Bunun nedeni GitHub’ın, Git’in sürüm kontrol özelliklerini içeren bulut tabanlı bir proje yönetimi ve organizasyon platformu olmasıdır.
+Yani, tüm GitHub kullanıcıları, kendilerine sunulan diğer Git işlevlerine aynı yerden erişirken,
+Kaynak kodda yapılan değişiklikleri gerçek zamanlı olarak izleyebilir ve yönetebilir.
+Dahası, GitHub’ın kullanıcı arayüzü Git’ten daha kullanıcı dostudur ve çok az teknik bilgiye sahip olan veya hiç olmayan kişiler için erişilebilir hale getirir.
+Bu, bir projenin ilerlemesine ve yönetimine daha fazla ekip üyesinin dahil edilebileceği ve geliştirme sürecini daha sorunsuz hale getirebileceği anlamına gelir.
+GitHub Nasıl Kullanılır?
+GitHub’ı ekibinizle ücretsiz olarak deneyebilirsiniz. Sınırsız depo ve ortak çalışan ancak yalnızca 500 MB depolama alanı içeren temel bir plan mevcuttur.
+GitHub’ın birçok özelliğine daha kapsamlı bir bakış için ücretli planlarından birini seçebilirsiniz.
+Bir plan seçtikten, gerekli bilgileri doldurduktan ve kayıt işlemini bitirdikten sonra GitHub’ın neler sunabileceğini keşfetmeye başlayabilirsiniz.
+Git’ten farklı olarak GitHub, komut satırının kodlanmasını veya kullanılmasını gerektirmez.
+1. GitHub Deposu Oluşturun
+Bir depo veya repo, projenizin merkezi hub’ı olacaktır. Tek bir dosya veya kod, resim, metin veya başka herhangi bir şey içeren bir dosya koleksiyonu olabilir.
+Repository Nedir? (Depo)
+Repository veya repo, projelerinizin dosyalarının depolandığı bir dizindir. GitHub’ın alanında veya bilgisayarınızdaki yerel bir depoda bulunabilir. 
+Dosyalar, fotoğraflar, sesler veya projenize alakalı her şeyi repository’inizde depolayabilirsiniz.
+İşlemi başlatmak için şu adımları izleyin:
+Yeni bir proje başlatmak için  Create a repository ‘a tıklayın.
+Owner (Sahip) bölümü hesap adınız olacak. Bir Repository Name (Depo Adı) oluşturun.
+Açık kaynak yapmak için Public olarak ayarlanıp ayarlanmadığını kontrol edin ve ardından Add a README file dosyası ekle kutusunu işaretleyin.
+Son olarak, Create repository‘ye tıklayın.
+NOT: Deponuzu açık kaynak (Publis) olarak ayarlamanız gerekmediğini unutmayın.
+Kimin göreceğini ve değişiklik yapacağını yönetmek için Private (Özel) olarak ayarlayabilirsiniz.
+2. GitHub Dalları/Şubeleri Oluşturun
+Dallar oluşturarak bir havuzun farklı versiyonlarını oluşturursunuz. 
+Bir geliştirici, özellik dalında proje değişiklikleri yaparak, entegre edildiğinde ana projeyi nasıl etkileyeceğini görebilir.
+Branch nedir? (Dal)
+Branch deponuzun bir kopyasıdır. Branch’i diğerlerinden ayrı bir geliştirme yapmak istediğiniz zaman kullanabilirsiniz.
+Branch üzerinde çalışmak merkezi repository’yi veya öbür branchleri etkilemez.
+İşiniz bittiğinde, pull request’i kullanarak branch’inizi öbür branch’lerle ve merkezi repo ile birleştirebilirsiniz.
+Bir özellik dalı şu şekilde oluşturabilirsiniz:
+Yeni deponuza gidin. Main butonuna basın ve yeni özellik dalınızın adını girin.Create branch‘a (Dal oluştur) tıklayın.
+Artık ana dalla aynı görünen bir özellik dalı oluşturdunuz. Projeyi etkilemeden serbestçe değişiklik yapmaya başlayabilirsiniz.
+Gönderilenler (Commits), GitHub’da kaydedilen değişikliklere denir. Özellik dalının dosyasını her değiştirdiğinizde, saklamak için Commit etmeniz gerekir.
+Değişiklik yaptığınızda sürümünüzü şöyle gönderebilirsiniz:
+Özellik dalına Main öğesine tıklayarak ve açılır menüden yeni oluşturduğunuz dalı seçerek erişin.
+Dosyayı düzenlemeye başlamak için “kalem simgesine” tıklayın. Bitirdiğinizde, yapılan değişikliklerin kısa bir açıklamasını yazın.
+Commit Changes‘a (Değişiklikleri Gönder) tıklayın.
+4. GitHub Çekme İstekleri (Pull Requests) Oluşturma
+Pull request, projenizde birlikte çalıştığınız kişileri bir dalda yaptığınız değişikliği ana depoya gönderdiğinize dair bilgilendirdiğiniz anlamına gelmekte.
+Bu depo, katkıda bulunanları kabul edebilir veya reddedebilir.
+Pull request (Çekme İstekleri) açıldığında, çalışmanızı birlikte çalıştığınız kişilerle tartışabilir ve gözden geçirebilirsiniz.
+GitHub’da bir pull request yaratmak için aşağıdaki adımları takip edin:
+Pull requests -> New pull request‘e tıklayın. Example comparisons bölümünde, az önce üzerinde çalıştığınız  feature branch’ı (Özellik dalı) seçin.
+Değişiklikleri bir kez daha gözden geçirin ve Create pull request‘e tıklayın.
+Yeni sayfada başlığı yazın ve birleştirmeyi teşvik etmek için üzerinde çalıştığınız şeyin kısa bir açıklamasını yazın.Create pull request‘e tıklayın.
+Artık diğer geliştiriciler, orijinal proje dosyalarında yaptığınız değişiklikleri birleştirebilecek.
+Bir Repository’i Çatallamak (
