@@ -61,4 +61,4 @@ Pull requests -> New pull request‘e tıklayın. Example comparisons bölümün
 Değişiklikleri bir kez daha gözden geçirin ve Create pull request‘e tıklayın.
 Yeni sayfada başlığı yazın ve birleştirmeyi teşvik etmek için üzerinde çalıştığınız şeyin kısa bir açıklamasını yazın.Create pull request‘e tıklayın.
 Artık diğer geliştiriciler, orijinal proje dosyalarında yaptığınız değişiklikleri birleştirebilecek.
-Bir Repository’i Çatallamak (
+
